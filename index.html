@@ -4,6 +4,7 @@
 	<title>Cody Ross</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="icon" href="images/favicon.svg" type="image/svg+xml"/>
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
@@ -20,7 +21,7 @@
 			<a href="#banner" class="logo"><strong class="keepTogether">Cody Ross</strong> <span>Software Developer</span></a>
 			<nav>
 				<a class="over390">Resume</a>
-				<a class="over390">Github</a>
+				<a class="over390" href="https://github.com/co-decode" target="_blank">Github</a>
 				<a class="over390" href="#contact">Contact</a>
 				<span class="under390">
 					<a>
@@ -42,7 +43,7 @@
 		</header>
 
 		<!-- Menu -->
-		<nav id="menu">
+		<!-- <nav id="menu">
 			<ul class="links">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="landing.html">Landing</a></li>
@@ -53,7 +54,7 @@
 				<li><a href="#" class="button primary fit">Get Started</a></li>
 				<li><a href="#" class="button fit">Log In</a></li>
 			</ul>
-		</nav>
+		</nav> -->
 
 		<!-- Banner -->
 		<section id="banner" class="major">
@@ -65,7 +66,7 @@
 				<div class="content">
 					<ul class="actions">
 						<li><a href="#one" class="button scroll">My Resume</a></li>
-						<li><a href="#one" class="button next scroll">My Projects</a></li>
+						<li><a href="#projects" class="button next scroll">My Projects</a></li>
 					</ul>
 				</div>
 				<div class="skillContainer">
@@ -129,6 +130,10 @@
 							<p>GraphQL</p>
 						</span>
 						<span class="">
+							<img src="images/urql.svg" alt="" />
+							<p>Urql</p>
+						</span>
+						<span class="">
 							<img src="images/apollographql.svg" alt="" />
 							<p>Apollo</p>
 						</span>
@@ -144,10 +149,6 @@
 							<img src="images/netlify.svg" alt="" />
 							<p>Netlify</p>
 						</span>
-						<span class="">
-							<img src="images/npm.svg" alt="" />
-							<p>Node Package Manager</p>
-						</span>
 					</div>
 					</div>
 				</div>
@@ -156,47 +157,180 @@
 
 		<section id="skills">
 		</section>
-
+		
 		<!-- Main -->
 		<div id="main">
 
-			<!-- One -->
-			<section id="one" class="tiles">
-				<article>
+			<!-- Projects -->
+			<section id="projects" class="tiles">
+				<article id="liftEquivalenceArticle">
 					<span class="image">
-						<img src="images/pic01.jpg" alt="" />
+						<img src="images/pic07.jpg" alt="" />
 					</span>
 					<header class="major">
-						<h3><a href="landing.html" class="link">Lift Equivalence Calculator</a></h3>
-						<p>Ipsum dolor sit amet</p>
+						<h3>Lift Equivalence Calculator</h3>
+						<nav>
+							<a onclick="fullscreenLiftEquivalence()">Video</a>
+							<a href="https://equivalence-tabler.netlify.app/" target="_blank">Deploy</a>
+							<a href="https://github.com/co-decode/tabler" target="_blank">Source</a>
+						</nav>
 					</header>
+					<video id="liftEquivalence" class="long" loop>
+						<source src="/video/liftEquivalenceWebM.webm" type="video/webm">
+						<source src="/video/liftEquivalenceMP4.mp4" type="video/mp4">
+						<p>You browser doesn't support HTML5 video.</p>
+					</video>
+					<div class="techTags">
+						<span class="">
+							<img src="images/javascript.svg" alt="" />
+						</span>
+						<span class="">
+							<img src="images/react.svg" alt="" />
+						</span>
+						<span class="">
+							<img src="images/css3.svg" alt="" />
+						</span>
+						<span class="">
+							<img src="images/html5.svg" alt="" />
+						</span>
+						<span class="">
+							<img src="images/netlify.svg" alt="" />
+						</span>
+					</div>
 				</article>
-				<article>
+				<article id="storeFrontArticle">
 					<span class="image">
 						<img src="images/pic02.jpg" alt="" />
 					</span>
 					<header class="major">
-						<h3><a href="landing.html" class="link">Fitness Store</a></h3>
-						<p>feugiat amet tempus</p>
+						<h3>Fitness Store</h3>
+						<nav>
+							<a onclick="fullscreenStoreFront()">Video</a>
+							<a href="https://node-store-front.netlify.app/" target="_blank">Deploy</a>
+							<a href="https://github.com/co-decode/storeFront" target="_blank">Source</a>					
+						</nav>
 					</header>
+						<video id="storeFront" class="wide" loop>
+							<source src="/video/storeFrontWebM.webm" type="video/webm">
+							<source src="/video/storeFrontMute.mp4" type="video/mp4">
+							<p>You browser doesn't support HTML5 video.</p>
+						</video>
+						<div class="techTags">
+							<span class="">
+								<img src="images/typescript.svg" alt="" />
+							</span>
+							<span class="">
+								<img src="images/react.svg" alt="" />
+							</span>
+							<span class="">
+								<img src="images/redux.svg" alt="" />
+							</span>
+							<span class="">
+								<img src="images/vite.svg" alt="" />
+							</span>
+							<span class="">
+								<img src="images/css3.svg" alt="" />
+							</span>
+							<span class="">
+								<img src="images/bootstrap.svg" alt="" />
+							</span>
+							<span class="">
+								<img src="images/graphql.svg" alt="" />
+							</span>
+							<span class="">
+								<img src="images/urql.svg" alt="" />
+							</span>
+							<span class="">
+								<img src="images/apollographql.svg" alt="" />
+							</span>
+							<span class="">
+								<img src="images/nodejs.svg" alt="" />
+							</span>
+							<span class="">
+								<img src="images/mongodb.svg" alt="" />
+							</span>
+							<span class="">
+								<img src="images/heroku.svg" alt="" />
+							</span>
+							<span class="">
+								<img src="images/netlify.svg" alt="" />
+							</span>
+						</div>
 				</article>
-				<article>
+				<article id="arithmeticArticle">
 					<span class="image">
 						<img src="images/pic03.jpg" alt="" />
 					</span>
 					<header class="major">
-						<h3><a href="landing.html" class="link">Arithmetic Trainer</a></h3>
-						<p>Lorem etiam nullam</p>
+						<h3>Arithmetic Trainer</h3>
+						<!-- <a href="landing.html" class="link"></a> -->
+						<!-- <p>Lorem etiam nullam</p> -->
+						<nav>
+							<a onclick="fullscreenArithmetic()">Video</a>
+							<a href="https://co-decode.github.io/arithmeticProject/" target="_blank">Deploy</a>
+							<a href="https://github.com/co-decode/arithmeticProject" target="_blank">Source</a>
+						</nav>
 					</header>
+					<video id="arithmetic" class="wide" loop>
+						<source src="/video/ArhythmeticWebM.webm" type="video/webm">
+						<source src="/video/AryhthmeticMP42.mp4" type="video/mp4">
+						<p>You browser doesn't support HTML5 video.</p>
+					</video>
+					<div class="techTags">
+						<span class="">
+							<img src="images/javascript.svg" alt="" />
+						</span>
+						<span class="">
+							<img src="images/css3.svg" alt="" />
+						</span>
+						<span class="">
+							<img src="images/html5.svg" alt="" />
+						</span>
+						<span class="">
+							<img src="images/github.svg" alt="" />
+						</span>
+					</div>
 				</article>
-				<article>
+				<article id="liftingRecordArticle">
 					<span class="image">
 						<img src="images/pic04.jpg" alt="" />
 					</span>
 					<header class="major">
-						<h3><a href="landing.html" class="link">Weightlifting Log</a></h3>
-						<p>Nisl sed aliquam</p>
+						<h3>Weightlifting Log</h3>
+						<nav>
+							<a onclick="fullscreenLiftingRecord()">Video</a>
+							<a href="https://co-decode.github.io/liftingHistory-Client/" target="_blank">Deploy</a>
+							<a href="https://github.com/co-decode/liftingHistory" target="_blank">Source</a>
+						</nav>
 					</header>
+					<video id="liftingRecord" class="long" loop>
+						<source src="/video/liftingRecordWebM.webm" type="video/webm">
+						<source src="/video/liftingRecordMP4.mp4" type="video/mp4">
+						<p>You browser doesn't support HTML5 video.</p>
+					</video>
+					<div class="techTags">
+						<span class="">
+							<img src="images/javascript.svg" alt="" />
+						</span>
+						<span class="">
+							<img src="images/react.svg" alt="" />
+						</span>
+						<span class="">
+							<img src="images/css3.svg" alt="" />
+						</span>
+						<span class="">
+							<img src="images/nodejs.svg" alt="" />
+						</span>
+						<span class="">
+							<img src="images/postgresql.svg" alt="" />
+						</span>
+						<span class="">
+							<img src="images/heroku.svg" alt="" />
+						</span>
+						<span class="">
+							<img src="images/github.svg" alt="" />
+						</span>
+					</div>
 				</article>
 			</section>
 		</div>
@@ -229,20 +363,20 @@
 						</ul>
 					</form>
 				</section>
-
+				
+				<footer id="footer">
+					<div class="inner">
+						<ul class="copyright">
+							<!-- <li>&copy; </li> -->
+							<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+						</ul>
+						<!-- <ul class="icons">
+		
+							<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						</ul> -->
+					</div>
+				</footer>
 			</div>
-			<footer id="footer">
-				<div class="inner">
-					<!-- <ul class="icons">
-
-						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-					</ul> -->
-					<ul class="copyright">
-						<!-- <li>&copy; </li> -->
-						<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
 		</section>
 
 		<!-- Footer -->
@@ -250,6 +384,7 @@
 	</div>
 
 	<!-- Scripts -->
+	<script src="assets/js/video.js"></script>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
 	<script src="assets/js/jquery.scrollex.min.js"></script>
