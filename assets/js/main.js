@@ -231,6 +231,25 @@
 
 		});
 
+		var $projects = $("#2projects")
+		$projects.click(function() {
+			$([document.documentElement, document.body]).animate({
+				scrollTop: $("#projects").offset().top
+			}, 300);
+		});
+		var $contact = $("#2contact")
+		$contact.click(function() {
+			$([document.documentElement, document.body]).animate({
+				scrollTop: $("#contact").offset().top
+			}, 300);
+		});
+		var $home = $("#2banner")
+		$home.click(function() {
+			$([document.documentElement, document.body]).animate({
+				scrollTop: $("#banner").offset().top
+			}, 300);
+		});
+
 	// Menu.
 		var $menu = $('#menu'),
 			$menuInner;

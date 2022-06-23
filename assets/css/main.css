@@ -3991,6 +3991,7 @@ input, select, textarea {
 	
 	flex-wrap:nowrap;
 	white-space:nowrap;
+	overflow-y:hidden;
 }
 
 @media (max-width: 790px) {
@@ -4101,4 +4102,13 @@ video.long {
 	font-weight:bold;
 	margin-right:10px;
 	cursor:pointer;
+}
+
+.workingOn {
+	display:flex;
+}
+
+.workingOn > span > img {
+	height:20px;
+	width:20px;
 }
