@@ -249,6 +249,12 @@
 				scrollTop: $("#banner").offset().top
 			}, 300);
 		});
+		var $vidTop = $("#2top")
+		$vidTop.click(function() {
+			$([document.documentElement, document.body]).animate({
+				scrollTop: $("#wrapper").offset().top
+			}, 400);
+		});
 
 	// Menu.
 		var $menu = $('#menu'),

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 
 <head>
-	<title>Cody Ross</title>
+	<title>Cody Ross - Portfolio</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="icon" href="images/favicon.svg" type="image/svg+xml"/>
@@ -18,11 +18,11 @@
 
 		<!-- Header -->
 		<header id="header" class="alt">
-			<a id="2banner" class="logo"><strong class="keepTogether">Cody Ross</strong> <span>Software Developer</span></a>
+			<a id="2banner" class="logo pointer"><strong class="keepTogether">Cody Ross</strong> <span>Software Developer</span></a>
 			<nav>
-				<a class="over390">Resume</a>
+				<a href="/resume.pdf" target="_blank" class="over390">Resume</a>
 				<a class="over390" href="https://github.com/co-decode" target="_blank">Github</a>
-				<a class="over390" id="2contact">Contact</a>
+				<a class="over390 pointer" id="2contact">Contact</a>
 				<span class="under390">
 					<a>
 					<img src="images/resume.svg" alt="" />
@@ -38,24 +38,8 @@
 					<img src="images/email1.svg" alt="" />
 					</a>	
 				</span>
-				<!-- <a href="#menu">Menu</a> -->
 			</nav>
 		</header>
-
-		<!-- Menu -->
-		<!-- <nav id="menu">
-			<ul class="links">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="landing.html">Landing</a></li>
-				<li><a href="generic.html">Generic</a></li>
-				<li><a href="elements.html">Elements</a></li>
-			</ul>
-			<ul class="actions stacked">
-				<li><a href="#" class="button primary fit">Get Started</a></li>
-				<li><a href="#" class="button fit">Log In</a></li>
-			</ul>
-		</nav> -->
-
 		<!-- Banner -->
 		<section id="banner" class="major">
 			<div class="inner">
@@ -179,15 +163,12 @@
 			<!-- Projects -->
 			<section id="projects" class="tiles">
 				<article id="liftEquivalenceArticle">
-					<span class="image">
-						<img src="images/pic07.jpg" alt="" />
-					</span>
 					<header class="major">
 						<h3>Lift Equivalence Calculator</h3>
 						<nav>
-							<a onclick="fullscreenLiftEquivalence()">Video</a>
-							<a href="https://equivalence-tabler.netlify.app/" target="_blank">Deploy</a>
+							<a href="https://equivalence-tabler.netlify.app/" target="_blank">Site</a>
 							<a href="https://github.com/co-decode/tabler" target="_blank">Source</a>
+							<a onclick="fullscreenLiftEquivalence()">Video</a>
 						</nav>
 					</header>
 					<video id="liftEquivalence" class="long" loop>
@@ -214,15 +195,12 @@
 					</div>
 				</article>
 				<article id="storeFrontArticle">
-					<span class="image">
-						<img src="images/pic02.jpg" alt="" />
-					</span>
 					<header class="major">
-						<h3>Fitness Store</h3>
+						<h3 class="hoverBlue"><a onclick="fullscreenStoreFront()">Fitness Store</a></h3>
 						<nav>
-							<a onclick="fullscreenStoreFront()">Video</a>
-							<a href="https://node-store-front.netlify.app/" target="_blank">Deploy</a>
+							<a href="https://node-store-front.netlify.app/" target="_blank">Site</a>
 							<a href="https://github.com/co-decode/storeFront" target="_blank">Source</a>					
+							<a href="/videos.html#toMSF">Video</a>
 						</nav>
 					</header>
 						<video id="storeFront" class="wide" loop>
@@ -276,17 +254,12 @@
 						</div>
 				</article>
 				<article id="arithmeticArticle">
-					<span class="image">
-						<img src="images/pic03.jpg" alt="" />
-					</span>
 					<header class="major">
-						<h3>Arithmetic Trainer</h3>
-						<!-- <a href="landing.html" class="link"></a> -->
-						<!-- <p>Lorem etiam nullam</p> -->
+						<h3 class="hoverBlue"><a onclick="fullscreenArithmetic()">Arithmetic Trainer</a></h3>
 						<nav>
-							<a onclick="fullscreenArithmetic()">Video</a>
-							<a href="https://co-decode.github.io/arithmeticProject/" target="_blank">Deploy</a>
+							<a href="https://co-decode.github.io/arithmeticProject/" target="_blank">Site</a>
 							<a href="https://github.com/co-decode/arithmeticProject" target="_blank">Source</a>
+							<a href="cody-ross.com/videos#toA" target="_blank">Video</a>
 						</nav>
 					</header>
 					<video id="arithmetic" class="wide" loop>
@@ -310,15 +283,12 @@
 					</div>
 				</article>
 				<article id="liftingRecordArticle">
-					<span class="image">
-						<img src="images/pic04.jpg" alt="" />
-					</span>
 					<header class="major">
-						<h3>Weightlifting Log</h3>
+						<h3 class="hoverBlue"><a onclick="fullscreenLiftingRecord()">Weightlifting Log</a></h3>
 						<nav>
-							<a onclick="fullscreenLiftingRecord()">Video</a>
-							<a href="https://co-decode.github.io/liftingHistory-Client/" target="_blank">Deploy</a>
+							<a href="https://co-decode.github.io/liftingHistory-Client/" target="_blank">Site</a>
 							<a href="https://github.com/co-decode/liftingHistory" target="_blank">Source</a>
+							<a href="/videos#toLH">Video</a>
 						</nav>
 					</header>
 					<video id="liftingRecord" class="long" loop>
@@ -388,13 +358,8 @@
 				<footer id="footer">
 					<div class="inner">
 						<ul class="copyright">
-							<!-- <li>&copy; </li> -->
 							<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
 						</ul>
-						<!-- <ul class="icons">
-		
-							<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						</ul> -->
 					</div>
 				</footer>
 			</div>

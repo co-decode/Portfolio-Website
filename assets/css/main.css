@@ -4112,3 +4112,25 @@ video.long {
 	height:20px;
 	width:20px;
 }
+
+.vidPage {
+	width: 85vw;
+}
+
+.footerVids {
+	border-top:0 !important;
+}
+
+.bottomVids {
+	margin-top:20px;
+	margin-right:20px;
+}
+
+.pointer {
+	cursor:pointer;
+}
+
+.hoverBlue:hover {
+	cursor: pointer;
+	color:#9bf1ff !important;
+}
